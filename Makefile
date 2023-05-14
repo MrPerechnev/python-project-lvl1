@@ -1,15 +1,14 @@
 install:
-    poetry install
+	poetry install
 
-run:
-    poetry run brain-games
+brain-games:
+	poetry run brain-games
 
 build:
-    poetry build
+	poetry build
 
 publish:
-    poetry publish
+	poetry publish
 
 package-install:
-    python3 -m pip install --user dist/*.whl
-    
+	python3 -m pip install --user dist/*.whl
