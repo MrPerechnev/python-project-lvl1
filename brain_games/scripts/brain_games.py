@@ -2,6 +2,9 @@
 def main():
     print('Welcome to the Brain Games!')
 
+import brain_games.cli
+
 if __name__ == '__main__':
     main()
-    welcome_user()
+    cli.welcome_user()
+    
