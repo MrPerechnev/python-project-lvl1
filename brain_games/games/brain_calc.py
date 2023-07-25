@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from random import randint, choice
+from brain_games.the_same_logic import start_game()
 
 task = 'What is the result of the expression?'
 
