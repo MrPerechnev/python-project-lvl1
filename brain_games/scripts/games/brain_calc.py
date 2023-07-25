@@ -5,6 +5,7 @@ task = 'What is the result of the expression?'
 
 
 def main():
+    start_game()
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     operators = ['+', '-', '*']
