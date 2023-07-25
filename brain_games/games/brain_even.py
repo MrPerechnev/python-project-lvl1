@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
 
-from brain_games.the_same_logic import start_game()
+from brain_games.the_same_logic import start_game
 
 task = 'Answer "yes" if the number is even, otherwise answer "no".'
 
