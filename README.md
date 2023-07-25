@@ -3,3 +3,6 @@
 
 ### Maintainability Badge
 <a href="https://codeclimate.com/github/MrPerechnev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/568b885fbadaa7ecc654/maintainability" /></a>
+
+### Asciinema package(brain-even game) installation
+https://asciinema.org/a/595957
