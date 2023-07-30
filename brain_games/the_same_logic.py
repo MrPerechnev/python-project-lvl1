@@ -15,7 +15,7 @@ def start_game(game):
         if user_answer == correct_answer:
             print('Correct!')
             index = index + 1
-        elif user_answer != correct_answer:
+        else:
             return f"{user_answer} is wrong answer ;(.\
  Correct answer was {correct_answer}.\nLet's try again, {name}!"
     return f"Congratulations, {name}!"
