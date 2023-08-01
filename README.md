@@ -6,3 +6,15 @@
 
 ### Asciinema package(brain-even game) installation
 https://asciinema.org/a/595957
+
+### Asciinema package(brain-calc game) installation
+https://asciinema.org/a/aTRr948jrA5LQcZNqWSLPL9iS
+
+### Asciinema package(brain-gcd game) installation
+https://asciinema.org/a/t2jFJwXOYjuyTKapjsjm6XfK1
+
+### Asciinema package(brain-progression game) installation
+https://asciinema.org/a/76pYwuHJ4muUesPPomvXJj4GM
+
+### Asciinema package(brain-prime game) installation
+https://asciinema.org/a/oYr5IBoozfs29Buxof4up5Hhr
