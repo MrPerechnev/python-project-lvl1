@@ -4,8 +4,10 @@ task = 'What is the result of the expression?'
 
 
 def main():
-    number1 = randint(1, 100)
-    number2 = randint(1, 100)
+    number_min = 1
+    number_max = 100
+    number1 = randint(number_min, number_max)
+    number2 = randint(number_min, number_max)
     operators = ['+', '-', '*']
     random_operator = choice(operators)
     question = f'{number1} {random_operator} {number2}'
