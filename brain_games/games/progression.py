@@ -4,7 +4,9 @@ task = 'What number is missing in the progression?'
 
 
 def main():
-    first_number = randint(1, 100)
+    number_min = 1
+    number_max = 100
+    first_number = randint(number_min, number_max)
     step = randint(1, 10)
     list = []
     for _ in range(10):

@@ -8,6 +8,8 @@ def even(number):
 
 
 def main():
-    question = randint(1, 100)
+    number_min = 1
+    number_max = 100
+    question = randint(number_min, number_max)
     correct_answer = even(question)
     return question, correct_answer
