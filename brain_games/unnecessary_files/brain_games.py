@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.unnesessary_files.cli import welcome_user
+from brain_games.unnecessary_files.cli import welcome_user
 
 
 def main():
