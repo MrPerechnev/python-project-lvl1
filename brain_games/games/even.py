@@ -10,7 +10,7 @@ def is_even(number):
         return False
 
 
-def main():
+def task_generation():
     number_min = 1
     number_max = 100
     question = randint(number_min, number_max)

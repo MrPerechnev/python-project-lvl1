@@ -4,7 +4,7 @@ from math import gcd
 task = 'Find the greatest common divisor of given numbers.'
 
 
-def main():
+def task_generation():
     number_min = 1
     number_max = 100
     number1 = randint(number_min, number_max)
