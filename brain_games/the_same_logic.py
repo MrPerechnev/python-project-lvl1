@@ -9,7 +9,7 @@ def run(game):
     print('Hello, ' + name + '!')
     print(game.task)
     while index < rounds_count:
-        question, correct_answer = game.main()
+        question, correct_answer = game.task_generation()
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:
