@@ -8,14 +8,16 @@
 
 
 # Brain-games
-"Brain-games" is the set of mini math games programmed on Python. Each game poses a question and one has to give the correct answer three times consecutively to pass it. if a user gives a wrong answer the game will stop and offer to try itself again.
+"Brain-games" is the set of mini math games programmed on Python. Each game poses a question and one has to give the correct answer three times consecutively to pass it. If a user gives a wrong answer the game will stop and offer to try itself again.
 
 ### iNSTALLATION GUIDE:
+```
 Step1 - git clone <a href="https://github.com/MrPerechnev/python-project-lvl1"></a>
 Step2 - poetry install
 Step3 - poetry build
 Step4 - poetry publish
 Step5 - python3 -m pip install --upgrade --force-reinstall dist/hexlet_code-0.1.0-py3-none-any.whl
+```
 
 ## Brain-even game
 One has to answer whether a given number is even or not (game launch with 'brain-even' command).
