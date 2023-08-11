@@ -10,7 +10,7 @@
 # Brain-games
 "Brain-games" is the set of mini math games programmed on Python. Each game poses a question and one has to give the correct answer three times consecutively to pass it. If a user gives a wrong answer the game will stop and offer to try itself again.
 
-### iNSTALLATION GUIDE:
+### INSTALLATION GUIDE:
 ```
 Step1 - git clone <a href="https://github.com/MrPerechnev/python-project-lvl1"></a>
 Step2 - poetry install
