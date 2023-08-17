@@ -1,6 +1,8 @@
 from random import randint
+NUMBER_MIN = 1
+NUMBER_MAX = 100
 
-task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
@@ -13,10 +15,8 @@ def is_prime(n):
         return False
 
 
-def task_generation():
-    number_min = 1
-    number_max = 100
-    question = randint(number_min, number_max)
+def generate():
+    question = randint(NUMBER_MIN, NUMBER_MAX)
     if is_prime(question):
         correct_answer = 'yes'
     else:

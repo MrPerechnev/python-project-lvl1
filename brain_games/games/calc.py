@@ -1,13 +1,13 @@
 from random import randint, choice
+NUMBER_MIN = 1
+NUMBER_MAX = 100
 
-task = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
 
 
-def task_generation():
-    number_min = 1
-    number_max = 100
-    number1 = randint(number_min, number_max)
-    number2 = randint(number_min, number_max)
+def generate():
+    number1 = randint(NUMBER_MIN, NUMBER_MAX)
+    number2 = randint(NUMBER_MIN, NUMBER_MAX)
     operators = ['+', '-', '*']
     random_operator = choice(operators)
     question = f'{number1} {random_operator} {number2}'

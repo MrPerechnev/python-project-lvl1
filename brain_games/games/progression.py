@@ -1,6 +1,13 @@
 from random import randint
+NUMBER_MIN = 1
+NUMBER_MAX = 100
+STEP_MIN = 1
+STEP_MAX = 10
+NUMBER_START = 0
+NUMBER_END = 10
+LENGTH = 10
 
-task = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
 def get_progression(first_number, length, step):
@@ -11,18 +18,12 @@ def get_progression(first_number, length, step):
     return list
 
 
-def task_generation():
-    number_min = 1
-    number_max = 100
-    step_min = 1
-    step_max = 10
-    length = 10
-    step = randint(step_min, step_max)
-    first_number = randint(number_min, number_max)
-    number_start = 0
-    number_end = 10
+def generate():
+    length = LENGTH
+    step = randint(STEP_MIN, STEP_MAX)
+    first_number = randint(NUMBER_MIN, NUMBER_MAX)
     list = get_progression(first_number, length, step)
-    missing_number = randint(number_start, number_end - 1)
+    missing_number = randint(NUMBER_START, NUMBER_END - 1)
     correct_answer = str(list[missing_number])
     list[missing_number] = '..'
     question = ' '.join(list)

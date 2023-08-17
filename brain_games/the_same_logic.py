@@ -7,9 +7,9 @@ def run(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    print(game.task)
+    print(game.TASK)
     while index < rounds_count:
-        question, correct_answer = game.task_generation()
+        question, correct_answer = game.generate()
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")
         if user_answer == correct_answer:

@@ -1,14 +1,14 @@
 from random import randint
 from math import gcd
+NUMBER_MIN = 1
+NUMBER_MAX = 100
 
-task = 'Find the greatest common divisor of given numbers.'
+TASK = 'Find the greatest common divisor of given numbers.'
 
 
-def task_generation():
-    number_min = 1
-    number_max = 100
-    number1 = randint(number_min, number_max)
-    number2 = randint(number_min, number_max)
+def generate():
+    number1 = randint(NUMBER_MIN, NUMBER_MAX)
+    number2 = randint(NUMBER_MIN, NUMBER_MAX)
     question = f'{number1} {number2}'
     correct_answer = str(gcd(number1, number2))
     return question, correct_answer

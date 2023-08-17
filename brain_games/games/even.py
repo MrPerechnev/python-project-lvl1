@@ -1,20 +1,16 @@
 from random import randint
+NUMBER_MIN = 1
+NUMBER_MAX = 100
 
-task = 'Answer "yes" if the number is even, otherwise answer "no".'
+TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 
-def task_generation():
-    number_min = 1
-    number_max = 100
-    question = randint(number_min, number_max)
-    correct_answer = is_even(question)
+def generate():
+    question = randint(NUMBER_MIN, NUMBER_MAX)
     if is_even(question):
         correct_answer = 'yes'
     else:
